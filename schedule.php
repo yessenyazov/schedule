@@ -153,7 +153,7 @@ $bellTimes = $stmt->fetchAll(PDO::FETCH_ASSOC);
     // JavaScript функциялары
     document.addEventListener('DOMContentLoaded', function() {
         let selectedTeacher = '';
-        let shownDays = {}; //gkiobkh
+        let shownDays = {}; 
 
         // Мұғалімнің кестесін көрсету функциясы
         function showDays(teacher) {
